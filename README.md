@@ -11,9 +11,11 @@ This document is designed to track the progress of the Licium Protocol demo for 
 
 ### Communication
 - Teambuilding among all members  
-- Introduction to the ‘Licium Protocol’ project  
-- Discussions about Terra integration  
-- Discussions about decentralised applications, use cases, and future roadmap  
+- Introduction to the ‘Licium Protocol’ project 
+- Discussions about 
+  - the scope of the hackathon 
+  - Terra integration  
+  - decentralised applications, use cases, and future roadmap  
 - First draft of the script for the final submissions video  
 
 ### Technical Development
@@ -59,50 +61,64 @@ The demo application will support the following actions:
 
 ### Token Info
 
-/// The owner of the newly minted NFT
-pub owner: Addr
+/// The owner of the newly minted NFT: 
+
+pub owner: Addr  
 
 /// Approvals are stored here, as we clear them all upon transfer and cannot accumulate much
-pub approvals: Vec<Approval>
+pub approvals:   
 
-/// Identifies the asset to which this NFT represents
-name: String
+Vec<Approval>  
 
-/// Describes the asset to which this NFT represents
-description: String
+/// Identifies the asset to which this NFT represents:  
 
-/// A URI pointing to an image representing the asset
-image: Option<String>
- 
+name: String  
+
+/// Describes the asset to which this NFT represents:  
+
+description: String  
+
+/// A URI pointing to an image representing the asset:  
+
+image: Option<String>  
+
 
 ### ISCC Data
 
-/// Unique id of the token
-token_id: String
+/// Unique id of the token: 
 
-/// ISCC code generated from the content
-iscc_code: String
+token_id: String  
 
-/// Cryptographic
-tophash: String
+/// ISCC code generated from the content:   
+
+iscc_code: String   
+
+/// Cryptographic hash:  
+
+tophash: String  
 
 
 ### Offer (Licensing)
 
-/// Unique id of the token
-token_id: String
+/// Unique id of the token:  
 
-/// Price asked for licensing
-price: Coin
+token_id: String  
+
+/// Price asked for licensing:  
+
+price: Coin  
 
 
 ### License Transaction
 
-/// Unique id of the token
-token_id: String  
+/// Unique id of the token:  
 
-// Address of the licensee
-licensee: Addr  
+token_id: String    
 
-// Price paid by the licensee
-price: Coin
+/// Address of the licensee:  
+
+licensee: Addr   
+
+/// Price paid by the licensee:  
+
+price: Coin  

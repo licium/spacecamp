@@ -31,7 +31,8 @@ This document is designed to track the progress of the Licium Protocol demo for 
 - Development of demo dApp using `Next.js` and `Terra.js` in progress (link available soon)
 
 ## Additional Repositories
-https://github.com/licium/licium-cw721
+https://github.com/SourceCheckOrg/licium-cw721
+https://github.com/SourceCheckOrg/licium-nft-ui (v0.1 available soon)
 
 ## Further Notes
 

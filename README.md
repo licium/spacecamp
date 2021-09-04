@@ -4,8 +4,8 @@
 This document is designed to track the progress of the Licium Protocol demo for the Spacecamp hackathon.
 
 - Status: Work in progress  
-- Version: 0.1  
-- Date: 2. September 2021  
+- Version: 0.2
+- Date: 4. September 2021 (07:45 EST)
 
 ## Worklog
 
@@ -19,22 +19,34 @@ This document is designed to track the progress of the Licium Protocol demo for 
 - First draft of the script for the final submissions video  
 
 ### Technical Development
-- Research on Terra/CosmWasm ecosystem (Local Terra, Terra Station Wallet, CosmoWasm Smart Contracts)
-- Learning CosmWasm Contract using Terra Academy (`https://academy.terra.money/`)
-- Attending live community livestreams on the `Terra Bites Youtube channel`
-- Communication with mentors (`@Orkun Kulce`, `@carlos`, `@Shane Vitarana`) and support to other participants of the hackathon
-- Running `LocalTerra` for development environment
-- Exploring specifications and contracts of CosmWasm Plus repository (`cw-plus`)
-- Experiments with `cosmwasm-template`, compilation targeting `cosmwasm-unknown-unknown` and using `rust optimizer`
-- Deploying contracts on `LocalTerra`
-- Development of the first version of a custom cw751 CosmWasm smart contract (link below)
-- Development of demo dApp using `Next.js` and `Terra.js` in progress (link available soon)
+- [x] Research on Terra/CosmWasm ecosystem (Local Terra, Terra Station Wallet, CosmoWasm Smart Contracts)
+- [x] Learning CosmWasm Contract using Terra Academy (`https://academy.terra.money/`)
+- [x] Attending community livestreams on the Terra Bites Youtube channel
+- [x] Communication with mentors (`@Orkun Kulce`, `@carlos`, `@Shane Vitarana`) and support from/to other participants of the hackathon
+- [x] Running `LocalTerra` on development environment
+- [x] Exploring specifications and contracts from CosmWasm Plus repository (`cw-plus`)
+- [x] Experiments with `cosmwasm-template`, compilation targeting `cosmwasm-unknown-unknown` and using `rust optimizer`
+- [x] Deploying contracts on `LocalTerra`
+- [x] Development of Licium Protocol NFT CosmWasm smart contract (v0.1 based on cw751-base link below)
+- [ ] Deployment of Licium Protocol NFT smart contract to testnet
+- [ ] Development of demo dApp using `Next.js` and `Terra.js` (work in progress)
+  - [x] Connect dApp to Terra Blockchain using `Terra Wallet Provider`
+  - [] First version of NFT Minting form 
+     - [x] Generation of ISCC codes
+     - [x] Upload of image to IPFS
+     - [ ] Mint NFT using form (send tx to Terra Blockchain)
+  - [ ] NFT Licencing form
+     - [ ] License NFT using form (send tx to Terra Blockchain)
+- [x] Deployment of demo dApp (v0.1 WIP)
+- [ ] Deployment of demo dAPP (v0.1 beta) 
 
-## Additional Repositories
-
-https://github.com/SourceCheckOrg/licium-cw721
-
-https://github.com/SourceCheckOrg/licium-nft-ui (v0.1 available soon)
+## Additional Resources
+* Demo dApp (WIP)
+  * https://licium.sourcecheck.org/
+* Licium Protocol NFT CosmWasm smart contract
+  * https://github.com/SourceCheckOrg/licium-cw721
+* Licium demo dAPP
+  * https://github.com/SourceCheckOrg/licium-nft-ui
 
 ## Further Notes
 
@@ -64,64 +76,59 @@ The demo application will support the following actions:
 
 ### Token Info
 
-/// The owner of the newly minted NFT: 
-
+/// The owner of the newly minted NFT
 `pub owner: Addr` 
 
 /// Approvals are stored here, as we clear them all upon transfer and cannot accumulate much
-pub approvals:   
-
+pub approvals
 `Vec<Approval>`  
 
-/// Identifies the asset to which this NFT represents:  
-
+/// Identifies the asset to which this NFT represents
 `name: String`  
 
-/// Describes the asset to which this NFT represents:  
-
+/// Describes the asset to which this NFT represents
 `description: String`  
 
-/// A URI pointing to an image representing the asset:  
-
+/// A URI pointing to an image representing the asset
 `image: Option<String>`  
 
 
 ### ISCC Data
 
-/// Unique id of the token: 
+/// Unique id of the token
 
 `token_id: String`  
 
-/// ISCC code generated from the content:   
+/// ISCC code generated from the content
 
 `iscc_code: String`   
 
-/// Cryptographic hash:  
+/// Cryptographic hash
 
 `tophash: String`  
 
 
 ### Offer (Licensing)
 
-/// Unique id of the token:  
+/// Unique id of the token
 
 `token_id: String`  
 
-/// Price asked for licensing:  
+/// Price asked for licensing
 
 `price: Coin`  
 
 
 ### License Transaction
 
-/// Unique id of the token:  
+/// Unique id of the token
 
 `token_id: String`     
 
-/// Address of the licensee:  
+/// Address of the licensee
 
 `licensee: Addr`   
 
-/// Price paid by the licensee:  
+/// Price paid by the licensee
 
 `price: Coin`  

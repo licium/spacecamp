@@ -131,8 +131,11 @@ token_id: String
 
 /// ISCC code components
 meta_id: String
+
 content_id: String
+
 data_id: String
+
 instance_id: String
 
 /// Cryptographic hash

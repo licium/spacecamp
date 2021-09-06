@@ -1,11 +1,27 @@
-# Update Spacecamp
+# Final Submission Spacecamp
 
 ## About this document 
-This document is designed to track the progress of the Licium Protocol demo for the Spacecamp hackathon.
+This document is designed to document the work on the Licium Protocol demo for the Spacecamp 2021 DeFi bootcamp:   
+
+https://eventornado.com/event/terra-spacecamp#home.
 
 - Status: Work in progress  
-- Version: 0.2
-- Date: 4. September 2021 (07:45 EST)
+- Version: 0.3
+- Date: 6. September 2021 (22:50 CET)
+
+## Final Submission
+
+The final submission video can be found here: 
+
+t.b.d.
+
+## Team members
+
+Dino De La O – @dinodelaomx   
+
+Jefferson Sofarelli – @jmsofarelli   
+
+Sebastian Posth – @posth   
 
 ## Worklog
 

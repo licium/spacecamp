@@ -22,6 +22,40 @@ t.b.d.
 * Sebastian Posth – [GitHub](https://github.com/sposth) / [Twitter](https://twitter.com/posth/)
 * Dino De La O – [Twitter](https://twitter.com/dinodelaomx)   
 
+
+## Additional Resources
+* Demo dApp (v0.1 beta, connnected to Bombay network)
+  * https://licium.sourcecheck.org/
+* Licium Protocol NFT CosmWasm smart contract
+  * https://github.com/SourceCheckOrg/licium-cw721
+* Licium demo dApp
+  * https://github.com/SourceCheckOrg/licium-nft-ui
+
+
+## Use cases and actions
+
+* The demo application supports the following use cases:  
+
+### Minting
+* Uploading of digital media asset (image)
+* Generation of ISCC code
+* Minting of NFT
+  1. Creating NFT  
+  2. Registration of ISCC
+  3. Registration of relevant metadata (licensing offer)
+
+### Verification
+* Uploading of digital media asset (image)  
+* Generation of ISCC  
+* Resolving of the NFT associated with the content
+* Resolving of corresponding metadata (licensing offer)  
+
+### Licensing Transaction
+* Transfering of license amount to NFT owner
+* Registering license in the smart contract
+* Due to the nature of the licensing transaction the NFT remains with the user 
+
+
 ## Worklog
 
 ### Communication
@@ -37,7 +71,8 @@ t.b.d.
 - [x] Research on Terra/CosmWasm ecosystem (Local Terra, Terra Station Wallet, CosmoWasm Smart Contracts)
 - [x] Learning CosmWasm Contract using Terra Academy (`https://academy.terra.money/`)
 - [x] Attending community livestreams on the Terra Bites Youtube channel
-- [x] Communication with mentors (`@Orkun Kulce`, `@carlos`, `@Shane Vitarana`) and support from/to other participants of the hackathon
+- [x] Communication with mentors (`@Orkun Kulce`, `@carlos`, `@Shane Vitarana`)
+- [x] Support from/to other participants of the hackathon
 - [x] Running `LocalTerra` on development environment
 - [x] Exploring specifications and contracts from CosmWasm Plus repository (`cw-plus`)
 - [x] Experimenting with `cosmwasm-template`, compilation targeting `cosmwasm-unknown-unknown` and using `rust optimizer`
@@ -67,42 +102,9 @@ t.b.d.
 - The potential is huge!
 
 
-## Additional Resources
-* Demo dApp (v0.1 beta)
-  * https://licium.sourcecheck.org/
-* Licium Protocol NFT CosmWasm smart contract
-  * https://github.com/SourceCheckOrg/licium-cw721
-* Licium demo dApp
-  * https://github.com/SourceCheckOrg/licium-nft-ui
+### Data Components
 
-
-## Further Notes
-
-### Actions
-The demo application will support the following actions:  
-
-#### Minting
-→ Upload of digital media asset (image)
-→ Generation of ISCC code
-→ Minting of NFT
-1. Creating NFT  
-2. Registration of ISCC
-3. Registration of relevant metadata (licensing offer)
-
-#### Verification
-→ Upload of digital media asset (image)  
-→ Generation of ISCC  
-→ Resolving of the NFT associated with the content
-→ Resolving of corresponding metadata (licensing offer)  
-
-#### Licensing Transaction
-→ Transfer of amount to owner
-→ Register payment tx to blockchain
-(Due to the nature of the licensing transaction the NFT remains with the user)   
-
-## Data Components
-
-### Token Info (CW721 specification)
+#### Token Info (CW721 specification)
 
 ```
 /// The owner of the newly minted NFT
@@ -121,7 +123,7 @@ description: String
 image: Option<String>
 ```
 
-### ISCC Data
+#### ISCC Data
 
 ```
 /// Unique id of the token
@@ -137,8 +139,7 @@ instance_id: String
 tophash: String
 ```
 
-
-### Licensing Offer
+####  Licensing Offer
 
 ```
 /// Unique id of the token
@@ -151,7 +152,7 @@ url: String
 price: Coin
 ```
 
-### License (Licensing transaction)
+#### License (Licensing transaction)
 
 ```
 /// Unique id of the token

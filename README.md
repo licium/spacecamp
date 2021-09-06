@@ -19,9 +19,9 @@ t.b.d.
 
 Dino De La O – @dinodelaomx   
 
-Jefferson Sofarelli – @jmsofarelli   
+[Jefferson Sofarelli](https://github.com/jmsofarelli/) – @jmsofarelli   
 
-Sebastian Posth – @posth   
+[Sebastian Posth](https://github.com/sposth) – @posth   
 
 ## Worklog
 

@@ -17,11 +17,9 @@ t.b.d.
 
 ## Team members
 
-Dino De La O – [Twitter](https://twitter.com/dinodelaomx)   
-
 Jefferson Sofarelli – [GitHub](https://github.com/jmsofarelli/) / [Twitter](https://twitter.com/@jmsofarelli)    
-
 Sebastian Posth – [GitHub](https://github.com/sposth) / [Twitter](https://twitter.com/posth/)
+Dino De La O – [Twitter](https://twitter.com/dinodelaomx)   
 
 ## Worklog
 

@@ -17,11 +17,11 @@ t.b.d.
 
 ## Team members
 
-Dino De La O – @dinodelaomx   
+Dino De La O – [Twitter](https://twitter.com/dinodelaomx)   
 
-[Jefferson Sofarelli](https://github.com/jmsofarelli/) – @jmsofarelli   
+Jefferson Sofarelli – [GitHub](https://github.com/jmsofarelli/) / [Twitter](https://twitter.com/@jmsofarelli)    
 
-[Sebastian Posth](https://github.com/sposth) – @posth   
+Sebastian Posth – [GitHub](https://github.com/sposth) / [Twitter](https://twitter.com/posth/)
 
 ## Worklog
 

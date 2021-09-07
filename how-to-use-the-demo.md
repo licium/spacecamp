@@ -40,7 +40,7 @@ In order to claim tokens for testing:
 - You can only mint an NFT from a specific digital media asset once.   
 - You can only acquire a license for a specific digital media asset once.  
 
-`**Be aware that the content of this demo will be uploaded and stored on IPFS!**`  
+**`Be aware that the content of this demo will be uploaded and stored on IPFS!`**  
 
 
 

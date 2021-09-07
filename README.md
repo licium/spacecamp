@@ -23,13 +23,18 @@ The final submission video can be found here:
 
 
 ## Additional Resources
-* Demo dApp (v0.1 beta, connnected to Bombay network)
-  * https://licium.sourcecheck.org/
-* Licium Protocol NFT CosmWasm smart contract
-  * https://github.com/SourceCheckOrg/licium-cw721
-* Licium demo dApp
-  * https://github.com/SourceCheckOrg/licium-nft-ui
+* Demo dApp (v0.1 beta, connnected to Bombay network)  
+  * https://licium.sourcecheck.org/  
 
+* Licium Protocol NFT CosmWasm smart contract  
+  * https://github.com/SourceCheckOrg/licium-cw721  
+* Licium demo dApp  
+  * https://github.com/SourceCheckOrg/licium-nft-ui  
+
+* ISCC GitHub Repositories
+  * https://github.com/iscc/
+* ISCC Specification
+  * https://iscc.codes
 
 ## Use cases and actions
 

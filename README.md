@@ -6,9 +6,8 @@ This document is designed to document the work on the Licium Protocol demo for t
 
 https://eventornado.com/event/terra-spacecamp#home.
 
-- Status: Work in progress  
+- Status: Final submission handed in on Monday, 6 September 2021, 9pm EST.  
 - Version: 0.3
-- Date: 6. September 2021 (22:50 CET)
 
 ## Final Submission
 

@@ -37,6 +37,8 @@ In order to claim tokens for testing:
 - The ISCC will get a major update in September (version 2.0), so the ISCC that you currently generate and register are not structurally compatible with the future ISCCs.  
 - The ISCCs will be gerated on the servers of https://sourcecheck.org/. No content will be stored on any of our servers.   
 - The ISCC codes will be registered on the [Bombay-10 testnet for columbus-5](https://github.com/terra-money/testnet/tree/master/bombay-10) of the [Terra Blockchain](https://www.terra.money/).  
+- You can only mint an NFT from a specific digital media asset once.   
+- You can only acquire a license for a specific digital media asset once.  
 
 **Be aware that the content of this demo will be uploaded and stored on IPFS!**  
 

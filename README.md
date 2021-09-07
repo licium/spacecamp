@@ -21,10 +21,15 @@ The final submission video can be found here:
 * Sebastian Posth – [GitHub](https://github.com/sposth) / [Twitter](https://twitter.com/posth/)
 * Dino De La O – [Twitter](https://twitter.com/dinodelaomx)   
 
+## Demo Application
 
-## Additional Resources
 * Demo dApp (v0.1 beta, connnected to Bombay network)  
   * https://licium.sourcecheck.org/  
+
+**INFORMATION ON HOW TO USE THE DEMO! 
+[https://github.com/licium/spacecamp/blob/main/how-to-use-the-demo.md](https://github.com/licium/spacecamp/blob/main/how-to-use-the-demo.md)**
+
+## Additional Resources
 
 * Licium Protocol NFT CosmWasm smart contract  
   * https://github.com/SourceCheckOrg/licium-cw721  

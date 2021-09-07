@@ -10,8 +10,7 @@ The Licium demo on [https://licium.sourcecheck.org/](https://licium.sourcecheck.
 
 ### 2. Wallet
 
-You need install the Terra Station web extension for your Chrome Browser or the Brave browser:
-
+You need install the Terra Station web extension for your Chrome Browser or the Brave browser:  
 [https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp)
 
 ### Creating a wallet

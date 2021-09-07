@@ -25,7 +25,7 @@ The final submission video can be found here:
 * Demo dApp (v0.1 beta, connnected to Bombay network)  
   * https://licium.sourcecheck.org/  
 
-**INFORMATION ON HOW TO USE THE DEMO!   
+**`Information on how to use the demo`!   
 [https://github.com/licium/spacecamp/blob/main/how-to-use-the-demo.md](https://github.com/licium/spacecamp/blob/main/how-to-use-the-demo.md)**
 
 ## Additional Resources

@@ -14,7 +14,7 @@ https://eventornado.com/event/terra-spacecamp#home.
 
 The final submission video can be found here: 
 
-t.b.d.
+[https://www.youtube.com/watch?v=GZU5pYaeIlc](https://www.youtube.com/watch?v=GZU5pYaeIlc)
 
 ## Team members
 

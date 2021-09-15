@@ -50,8 +50,8 @@ In order to claim tokens for testing:
 
 ### Content Licensing
 
-- With this Licium demo you can only mint one NFT from one specific digital media asset once.   
-- With this Licium demo you can only acquire one demo license for one specific digital media asset once.  
+- With this Licium demo you can only mint one NFT on the testnet from one specific digital media asset once.   
+- With this Licium demo you can only acquire one demo license on the testnet for one specific digital media asset once.  
 - **The presented licenses can be used for demonstration purposes only! They do not establish a legally binding agreement!** They are based on the the concept of Smart Licenses of the Content Blockchain Project [https://smartlicense.coblo.net/](https://smartlicense.coblo.net/).
 
 

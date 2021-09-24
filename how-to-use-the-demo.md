@@ -1,5 +1,7 @@
 # Information on How to Use the Demo
 
+UPDATE: The demo has been taken down temporarily to improve the app and enhance functionality.
+
 ## Requirements
 
 What do you need to test the demo:  

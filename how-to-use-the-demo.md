@@ -29,7 +29,7 @@ To use the Licium demo on [https://licium.sourcecheck.org/](https://licium.sourc
 In order to claim tokens for testing:   
 
 - Go to the `Terra faucet`: https://faucet.terra.money/   
-- Select the `10-Bombay testnet` on the top right.  
+- Select the `12-Bombay testnet` on the top right.  
 - Enter the wallet address which you will use for testing.   
 - Claim `UST`.    
 
